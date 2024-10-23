@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Autos</title>
+    <link rel="stylesheet" href="autos.css">
+    <script defer src="autos.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenidos a AutoShop</h1>
+    </header>
+
+    <nav>
+        <a href="#" data-section="about">Sobre Nosotros</a>
+        <a href="#" data-section="vehiculos">Vehículos</a>
+        <a href="#" data-section="shop">Accesorios</a>
+        <a href="#" data-section="contacto">Contacto</a>
+    </nav>
+
+    <main>
+        <section id="about" class="about">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una empresa dedicada a la venta de autos de calidad con más de 10 años de experiencia en el mercado.</p>
+        </section>
+
+        <section id="vehiculos" class="vehiculos">
+            <h2>Vehículos</h2>
+            <p>Tenemos una amplia variedad de autos de todas las marcas, nuevos y seminuevos.</p>
+            <div class="catalogo">
+                <div class="vehiculo">
+                    <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Cybertruck-Second-Hero-Desktop.jpg" alt="Tesla Cybertruck">
+                    <h3>Tesla Cybertruck</h3>
+                    <p>El Tesla Cybertruck es una camioneta eléctrica que combina diseño futurista y durabilidad.</p>
+                </div>
+                
+                <div class="vehiculo">
+                    <img src="https://media.toyota.com.ar/df5f54d1-4bc2-42e8-8cac-3c4c654fbc31.png" alt="Toyota Corolla">
+                    <h3>Toyota Corolla</h3>
+                    <p>Un sedán confiable y eficiente, ideal para el uso diario y viajes familiares.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="shop" class="shop">
+            <h2>Accesorios</h2>
+            <p>Compra los accesorios necesarios para tu vehiculo desde la comodidad de tu hogar con nuestras opciones de compra online.</p>
+        </section>
+
+        <section id="contacto" class="contacto">
+            <h2>Contacto</h2>
+            <p>Puedes contactarnos a través del siguiente formulario.</p>
+            <div class="contact-container">
+                <form action="#" method="POST" class="contact-form">
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="apellido" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="correo">Correo Electrónico:</label>
+                        <input type="email" id="correo" name="correo" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="telefono" name="telefono" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="vehiculo">Vehículo de Interés:</label>
+                        <select id="vehiculo" name="vehiculo" required>
+                            <option value="">Selecciona un vehículo</option>
+                            <option value="SUV">SUV</option>
+                            <option value="Sedán">Sedán</option>
+                            <option value="Deportivo">Deportivo</option>
+                            <option value="Camioneta">Camioneta</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="cta">Enviar</button>
+                </form>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13132.580903412285!2d-58.393934676513986!3d-34.62577015995631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb2520946ad7%3A0x531f8f8d460384ad!2sConstituci%C3%B3n%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1729138269894!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>AutoShop 2024</p>
+    </footer>
+
+</body>
+</html>
+
