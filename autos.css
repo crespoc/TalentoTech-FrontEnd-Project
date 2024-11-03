@@ -11,6 +11,7 @@ body, html {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-size: 14px;
 }
 
 .montserrat {
@@ -34,13 +35,9 @@ footer {
     background-color: #005f69;
     color: white;
     text-align: center;
-    padding: 20px 0;
-    width: 100%;
-}
-
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f4f8;
+    padding: 0 20px;
+    border-radius: 10px;
+    flex-shrink: 0;
 }
 
 header {
@@ -49,6 +46,7 @@ header {
     padding: 20px 0;
     text-align: center;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
 }
 
 nav {
@@ -57,6 +55,7 @@ nav {
     background-color: #104981;
     padding: 10px 0;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
 }
 
 nav a {
@@ -235,10 +234,6 @@ iframe {
 
 .quote-button:hover {
     background-color: #007F7D; 
-}
-
-body, html {
-    font-size: 14px;
 }
 
 .container {
